@@ -31,7 +31,7 @@ namespace SharedLibrary.Dtos
             return new Response<T> { Error = errorDto, StatusCode = statusCode,IsSuccessful= false };
         }
 
-        public Response<T> Fail(string errorMessage,int statusCode,bool isShow)
+        public static Response<T> Fail(string errorMessage,int statusCode,bool isShow)
         {
             var dto = new ErrorDto(errorMessage, isShow);
             return new Response<T> { Error = dto, StatusCode = statusCode,IsSuccessful = false };

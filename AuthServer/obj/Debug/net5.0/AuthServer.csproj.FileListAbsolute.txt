@@ -181,3 +181,4 @@ C:\Users\Samur\OneDrive\Masaüstü\AuthServerWithToken\AuthServer-master\AuthSer
 C:\Users\Samur\OneDrive\Masaüstü\AuthServerWithToken\AuthServer-master\AuthServer\obj\Debug\net5.0\ref\AuthServer.dll
 C:\Users\Samur\OneDrive\Masaüstü\AuthServerWithToken\AuthServer-master\AuthServer\obj\Debug\net5.0\AuthServer.pdb
 C:\Users\Samur\OneDrive\Masaüstü\AuthServerWithToken\AuthServer-master\AuthServer\obj\Debug\net5.0\AuthServer.genruntimeconfig.cache
+C:\Users\Samur\OneDrive\Masaüstü\AuthServerWithToken\AuthServer-master\AuthServer\bin\Debug\net5.0\AutoMapper.dll
