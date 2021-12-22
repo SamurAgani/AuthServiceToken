@@ -184,6 +184,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\AuthServer.Core\\AuthServer.Core.csproj": {
+                "projectPath": "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\AuthServer.Core\\AuthServer.Core.csproj"
+              },
               "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\AuthServer.Data\\AuthServer.Data.csproj": {
                 "projectPath": "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\AuthServer.Data\\AuthServer.Data.csproj"
               }
