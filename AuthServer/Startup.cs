@@ -1,12 +1,15 @@
 using AuthServer.Core.Configurations;
+using AuthServer.Core.Model;
 using AuthServer.Core.Repositories;
 using AuthServer.Core.Services;
 using AuthServer.Core.UnitOfWork;
 using AuthServer.Data;
 using AuthServer.Data.Repositories;
 using AuthServer.Service.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -34,7 +37,7 @@ namespace AuthServer
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<IAuthenticationService,AuthenticationService>();
+            services.AddScoped<IAuthenticationService, AuthenticationService>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<ITokenServices, TokenService>();
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
@@ -42,11 +45,43 @@ namespace AuthServer
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddDbContext<AppDbContext>(options =>
             {
-                options.UseSqlServer();
+                options.UseSqlServer(Configuration.GetConnectionString("SqlServer"), sqlOptions =>
+                 {
+                     sqlOptions.MigrationsAssembly("AuthServer.Data");
+                 });
             });
 
+            services.AddIdentity<UserApp, IdentityRole>(optitions =>
+            {
+                optitions.User.RequireUniqueEmail = true;
+                optitions.Password.RequireNonAlphanumeric = false;
+            }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+
+
             services.Configure<CustomTokenOption>(Configuration.GetSection("TokenOption"));
+
             services.Configure<List<Client>>(Configuration.GetSection("Clients"));
+
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+
+            }).AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, opt =>
+            {
+                var tokenoptions = Configuration.GetSection("TokenOption").Get<CustomTokenOption>();
+                opt.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
+                {
+                    ValidIssuer = tokenoptions.Issuer,
+                    ValidAudience = tokenoptions.Audience[0],
+                    IssuerSigningKey = SignService.GetSymmetricSecurityKey(tokenoptions.SecurityKey),
+                    ValidateIssuerSigningKey = true,
+                    ValidateAudience = true,
+                    ValidateIssuer = true,
+                    ValidateLifetime = true,
+                    ClockSkew = TimeSpan.Zero
+                };
+            });
 
 
             services.AddControllers();
@@ -67,7 +102,7 @@ namespace AuthServer
             }
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

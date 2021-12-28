@@ -137,7 +137,6 @@ C:\Users\Samur\OneDrive\Masaüstü\AuthServerWithToken\AuthServer-master\AuthSer
 C:\Users\Samur\OneDrive\Masaüstü\AuthServerWithToken\AuthServer-master\AuthServer\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Samur\OneDrive\Masaüstü\AuthServerWithToken\AuthServer-master\AuthServer\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Samur\OneDrive\Masaüstü\AuthServerWithToken\AuthServer-master\AuthServer\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\Samur\OneDrive\Masaüstü\AuthServerWithToken\AuthServer-master\AuthServer\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\Samur\OneDrive\Masaüstü\AuthServerWithToken\AuthServer-master\AuthServer\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Samur\OneDrive\Masaüstü\AuthServerWithToken\AuthServer-master\AuthServer\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Samur\OneDrive\Masaüstü\AuthServerWithToken\AuthServer-master\AuthServer\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -254,3 +253,6 @@ C:\Users\AganiyevSN\Desktop\AuthServiceToken\AuthServer\obj\Debug\net5.0\AuthSer
 C:\Users\AganiyevSN\Desktop\AuthServiceToken\AuthServer\obj\Debug\net5.0\ref\AuthServer.dll
 C:\Users\AganiyevSN\Desktop\AuthServiceToken\AuthServer\obj\Debug\net5.0\AuthServer.pdb
 C:\Users\AganiyevSN\Desktop\AuthServiceToken\AuthServer\obj\Debug\net5.0\AuthServer.genruntimeconfig.cache
+C:\Users\Samur\OneDrive\Masaüstü\AuthServerWithToken\AuthServer-master\AuthServer\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Samur\OneDrive\Masaüstü\AuthServerWithToken\AuthServer-master\AuthServer\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Samur\OneDrive\Masaüstü\AuthServerWithToken\AuthServer-master\AuthServer\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
