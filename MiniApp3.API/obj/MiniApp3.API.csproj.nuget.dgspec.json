@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\MiniApp3.API\\MiniApp3.API.csproj": {}
+    "C:\\Users\\AganiyevSN\\Desktop\\AuthServiceToken\\MiniApp3.API\\MiniApp3.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\MiniApp3.API\\MiniApp3.API.csproj": {
+    "C:\\Users\\AganiyevSN\\Desktop\\AuthServiceToken\\MiniApp3.API\\MiniApp3.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\MiniApp3.API\\MiniApp3.API.csproj",
+        "projectUniqueName": "C:\\Users\\AganiyevSN\\Desktop\\AuthServiceToken\\MiniApp3.API\\MiniApp3.API.csproj",
         "projectName": "MiniApp3.API",
-        "projectPath": "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\MiniApp3.API\\MiniApp3.API.csproj",
-        "packagesPath": "C:\\Users\\Samur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\MiniApp3.API\\obj\\",
+        "projectPath": "C:\\Users\\AganiyevSN\\Desktop\\AuthServiceToken\\MiniApp3.API\\MiniApp3.API.csproj",
+        "packagesPath": "C:\\Users\\AganiyevSN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AganiyevSN\\Desktop\\AuthServiceToken\\MiniApp3.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Samur\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\AganiyevSN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\SharedLibrary\\SharedLibrary.csproj": {
-                "projectPath": "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\SharedLibrary\\SharedLibrary.csproj"
+              "C:\\Users\\AganiyevSN\\Desktop\\AuthServiceToken\\SharedLibrary\\SharedLibrary.csproj": {
+                "projectPath": "C:\\Users\\AganiyevSN\\Desktop\\AuthServiceToken\\SharedLibrary\\SharedLibrary.csproj"
               }
             }
           }
@@ -75,25 +71,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\SharedLibrary\\SharedLibrary.csproj": {
+    "C:\\Users\\AganiyevSN\\Desktop\\AuthServiceToken\\SharedLibrary\\SharedLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\SharedLibrary\\SharedLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\AganiyevSN\\Desktop\\AuthServiceToken\\SharedLibrary\\SharedLibrary.csproj",
         "projectName": "SharedLibrary",
-        "projectPath": "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\SharedLibrary\\SharedLibrary.csproj",
-        "packagesPath": "C:\\Users\\Samur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\SharedLibrary\\obj\\",
+        "projectPath": "C:\\Users\\AganiyevSN\\Desktop\\AuthServiceToken\\SharedLibrary\\SharedLibrary.csproj",
+        "packagesPath": "C:\\Users\\AganiyevSN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AganiyevSN\\Desktop\\AuthServiceToken\\SharedLibrary\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Samur\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\AganiyevSN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -142,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

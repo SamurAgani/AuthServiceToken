@@ -5535,24 +5535,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Samur\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\AganiyevSN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\AuthServer.Service\\AuthServer.Service.csproj",
+      "projectUniqueName": "C:\\Users\\AganiyevSN\\Desktop\\AuthServiceToken\\AuthServer.Service\\AuthServer.Service.csproj",
       "projectName": "AuthServer.Service",
-      "projectPath": "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\AuthServer.Service\\AuthServer.Service.csproj",
-      "packagesPath": "C:\\Users\\Samur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\AuthServer.Service\\obj\\",
+      "projectPath": "C:\\Users\\AganiyevSN\\Desktop\\AuthServiceToken\\AuthServer.Service\\AuthServer.Service.csproj",
+      "packagesPath": "C:\\Users\\AganiyevSN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AganiyevSN\\Desktop\\AuthServiceToken\\AuthServer.Service\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Samur\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\AganiyevSN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5566,11 +5561,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\AuthServer.Core\\AuthServer.Core.csproj": {
-              "projectPath": "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\AuthServer.Core\\AuthServer.Core.csproj"
+            "C:\\Users\\AganiyevSN\\Desktop\\AuthServiceToken\\AuthServer.Core\\AuthServer.Core.csproj": {
+              "projectPath": "C:\\Users\\AganiyevSN\\Desktop\\AuthServiceToken\\AuthServer.Core\\AuthServer.Core.csproj"
             },
-            "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\AuthServer.Data\\AuthServer.Data.csproj": {
-              "projectPath": "C:\\Users\\Samur\\OneDrive\\Masaüstü\\AuthServerWithToken\\AuthServer-master\\AuthServer.Data\\AuthServer.Data.csproj"
+            "C:\\Users\\AganiyevSN\\Desktop\\AuthServiceToken\\AuthServer.Data\\AuthServer.Data.csproj": {
+              "projectPath": "C:\\Users\\AganiyevSN\\Desktop\\AuthServiceToken\\AuthServer.Data\\AuthServer.Data.csproj"
             }
           }
         }
@@ -5609,7 +5604,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
